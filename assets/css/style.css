@@ -24,7 +24,8 @@ img {
     display: block;
     max-height: 200px; 
 }
-
+/* Use a comma to separate tags with the same properties. */
+/* a and li tags need to be next to eachother, give inline proerty. */
 a,
 li {
     text-decoration: none;
@@ -40,7 +41,7 @@ body {
     background-color: #d9dcd6;
 }
 
-
+/* Class Selectors */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,7 +51,8 @@ body {
 .seo {
     color: #d9dcd6;
 }
-
+/* Use a space to combine a tag within a tag
+to contain the same properties. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -59,7 +61,7 @@ body {
     font-size: 20px;
 }
 
-
+/* .hero element has a background image with properties separate from the img elemts. */
 .hero {
     height: 800px;
     width: 100%;
@@ -83,7 +85,8 @@ body {
     float: right;
     margin-left: 25px;
 }
-
+/* These three element selectors have the same properties so they are
+grouped together with a comma. */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -117,7 +120,7 @@ body {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Center footer at the bottom of the page. */
 .footer {
     padding: 30px;
     clear: both;
