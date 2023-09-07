@@ -131,4 +131,9 @@ grouped together with a comma. */
 .footer h2 {
     font-size: 20px;
     color: black;
+    margin-bottom: 0px;
+}
+
+.footer p {
+    color: black;
 }
